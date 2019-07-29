@@ -1,6 +1,6 @@
 pam:
   pkg.installed:
-    - name: {{ pillar['pkg']['pam'] }}
+    - name: pam
   file.managed:
     - name: /etc/pam.d/system-login
     - user: root
